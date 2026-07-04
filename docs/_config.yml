@@ -41,7 +41,7 @@ plugins:
 - jekyll-remote-theme
 
 # Site settings
-url: 'https:giliapatterson.github.io'
+url: 'https://giliapatterson.github.io'
 baseurl: ''
 title: 'Gilia Patterson'
 description: "Gilia Patterson's website"

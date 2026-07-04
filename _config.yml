@@ -1,0 +1,46 @@
+# Site settings
+source: docs
+remote_theme: daviddarnes/alembic@main
+
+exclude:
+  - README.md
+  - docs/Gemfile
+  - docs/Gemfile.lock
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-mentions
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-redirect-from
+  - jekyll-feed
+  - jekyll-commonmark
+  - jekyll-include-cache
+  - jemoji
+  - jekyll-remote-theme
+
+url: "https://giliapatterson.github.io"
+baseurl: ""
+title: "Gilia Patterson"
+description: "Gilia Patterson's website"
+permalink: pretty
+github_username: giliapatterson
+
+paginate: 5
+paginate_path: blog/page:num
+
+navigation_header:
+  - title: Home
+    url: /
+  - title: Research
+    url: /research/
+  - title: News
+    url: /news/
+
+navigation_footer:
+  - title: Back to top
+    url: "#top"
+  - title: GitHub
+    url: https://github.com/giliapatterson
+  - title: Google Scholar
+    url: https://scholar.google.com/citations?user=wwtRdhoAAAAJ&hl=en
